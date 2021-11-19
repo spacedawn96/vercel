@@ -10,7 +10,7 @@ export const APOLLO_STATE_PROP_NAME = '__APOLLO_STATE__';
 let apolloClient;
 
 const link = new HttpLink({
-  uri: 'http://ec2-13-125-93-41.ap-northeast-2.compute.amazonaws.com/graphql', // http://api.nestblog.gq/  //http://localhost:4000
+  uri: 'https://woongblog.ga/graphql', // http://api.nestblog.gq/  //http://localhost:4000
   credentials: 'include',
 });
 
